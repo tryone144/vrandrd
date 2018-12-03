@@ -1,0 +1,8 @@
+[package]
+name = "vrandr"
+version = "0.0.1"
+authors = ["Bernd Busse <bernd@busse-net.de>"]
+
+[dependencies.xcb]
+version = "0.8"
+features = ["randr"]
